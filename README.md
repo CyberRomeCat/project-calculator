@@ -1,2 +1,1 @@
 # project-calculator
-p
