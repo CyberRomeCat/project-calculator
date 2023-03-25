@@ -1,0 +1,11 @@
+#display {
+    border-style: dashed;
+    border-color: aliceblue;
+}
+
+.all-numbers {
+    display: grid;
+    grid-template-columns: repeat(3,50px);
+    gap: 10px;
+}
+
