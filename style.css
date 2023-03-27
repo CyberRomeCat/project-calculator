@@ -1,11 +1,80 @@
+.container {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: rgb(105, 214, 209);
+    padding: 50px;
+    gap: 10px;
+    border-radius: 5%;
+    height: 300px;
+}
+
+.eye-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.eye {
+    height: 2rem;
+    width: 2rem;
+    background-color: azure;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    height: 1rem;
+    width: 1rem;
+    background-color: black;
+    border-radius: 50%;
+}
+
 #display {
-    border-style: dashed;
-    border-color: aliceblue;
+    border-style: solid;
+    border-color: rgb(90, 150, 202);
+    height: 3rem;
+    border-radius: 5%;
+    background-color: rgb(122, 196, 183);
 }
 
 .all-numbers {
     display: grid;
-    grid-template-columns: repeat(3,50px);
-    gap: 10px;
+    grid-template-columns: repeat(4,50px);
+    gap: 5px;
 }
 
+#zero {
+    grid-column: span 2;
+    border-radius: 40%;
+}
+
+button {
+    border-radius: 50%;
+    padding: 10px;
+    border-style: solid;
+    border-width: 3.5px;
+}
+
+.position {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.num {
+    background-color: rgb(226, 176, 184);
+    font-weight: bold;
+}
+
+.op  {
+background-color: rgb(166, 143, 230);
+}
+
+.equal {
+background-color: rgb(166, 143, 230)
+}
+
+#pos-neg {
+    background-color: rgb(240, 213, 162)
+}

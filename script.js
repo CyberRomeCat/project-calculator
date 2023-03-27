@@ -13,7 +13,6 @@ resetBtn.addEventListener('click',() => {
     display.innerText = num;
 });
 eqBtn.addEventListener('click',() => {
-
         inputNum = operate(operator,inputNum,num);
         display.innerText = inputNum;
         num = '';
